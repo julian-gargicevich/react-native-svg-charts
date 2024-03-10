@@ -13,6 +13,9 @@
         "eslint": "./node_modules/.bin/eslint .",
         "prepare": "bob build"
     },
+    "scripts": {
+        "prepare": "npm run build"
+      },
     "husky": {
         "hooks": {
             "pre-commit": "pretty-quick --staged"
